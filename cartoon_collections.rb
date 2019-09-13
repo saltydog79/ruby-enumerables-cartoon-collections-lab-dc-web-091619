@@ -24,6 +24,9 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.find do |cheese|
+    # within the array, find the parameter we've named cheese
   cheese_types.include?(cheese)
+  # does the array contain the parameter we've named cheese?
+  # if it includes any cheese, "include" will return the first instance of a cheese; otherwise, it will return "nil"
 end
 end
